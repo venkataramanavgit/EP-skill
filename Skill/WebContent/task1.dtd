@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!ELEMENT Students (Student+)>
-<!ELEMENT Student (name,email,marks,class)>
-<!ELEMENT name (#PCDATA)>
-<!ELEMENT email (#PCDATA)>
-<!ELEMENT marks (#PCDATA)>
-<!ELEMENT class (#PCDATA)>
-<!ATTLIST Student sid ID #REQUIRED>
